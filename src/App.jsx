@@ -4,7 +4,7 @@ import Notes from './Notes'
 function App() {
   return (
     <div className='app'>
-     <h1 style={{height:"70px"}}>Note App </h1>
+     <h1 style={{height:"70px"}} className='h1'>Note App </h1>
      
      <Notes />
      <button  className='note_save btn'onClick={()=>{
